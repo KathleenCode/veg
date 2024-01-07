@@ -73,6 +73,9 @@
     border-radius: 1px;
     outline-color: #9ADE7B;
 }
+.form button {
+    color: #557C55;
+}
 
 @media only screen and (max-width: 600px) {
     

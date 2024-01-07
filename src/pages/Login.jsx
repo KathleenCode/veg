@@ -38,7 +38,7 @@ export default function Login() {
         setUsers(getAll);
       }
 
-      if(getAll.length > 0) {
+      if(getAll) {
         setUsers(getAll);
       }
     }, [])
