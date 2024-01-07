@@ -1,0 +1,51 @@
+.plant {
+    background-color: #A3B763;
+    display: flex;
+    border-radius: 20px;
+}
+
+.group {
+    background-color: #F3F3F3;
+    padding: 1.4rem;
+    border-radius: 20px;
+}
+
+.group a img {
+    height: 90px;
+    width: 90px;
+    border-radius: 45%;
+    padding: 1.4rem .5rem;
+}
+
+.one img {
+    width: 300px;
+    height: 300px;
+    border-radius: 45%;
+    padding: 1rem;
+}
+
+.one h3 {
+    color: #F5EEC8;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.one span {
+    color: #F5EEC8;
+    border: 1px solid #FFFFDD;
+    margin: 0.5rem 1rem;
+    padding: .3rem 1rem;
+    cursor: pointer;
+}
+
+.one p {
+    margin-top: 1rem;
+    color: #FAF8ED;
+    overflow-wrap: break-word;
+    padding: 1rem 7rem;
+    width: 70%;
+}
+
+.group a.active {
+    background-color: #A3B763;
+}
